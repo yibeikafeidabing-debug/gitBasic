@@ -32,7 +32,6 @@ public class ControllerHandler {
     public String ecology(){
         UserInfo userInfo = userInfoMapper.selectByPrimaryKey(1);
         System.out.println("用户信息ecology"+JSONUtil.toJsonStr(userInfo));
-
         return "ecology";
     }
     @RequestMapping("/em")
