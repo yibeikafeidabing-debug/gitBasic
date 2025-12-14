@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhb.zhbspringboot.em.mapper.EmUserMapper">
+
+  <select id="selectById"
+          resultType="com.zhb.zhbspringboot.em.model.EmUser"
+          parameterType="java.lang.Long">
+    select id as id,
+           username as username,
+           age as age
+    from em_user
+    where id = #{id}
+  </select>
+
+
+
+</mapper>
