@@ -21,8 +21,4 @@ public class TestGit1 {
     public void setAge(String age) {
         this.age = age;
     }
-
-    public void show(){
-        System.out.println("show...");
-    }
 }
