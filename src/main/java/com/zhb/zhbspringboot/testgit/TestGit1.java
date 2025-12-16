@@ -1,10 +1,6 @@
 package com.zhb.zhbspringboot.testgit;
 
 public class TestGit1 {
-
-//    暂存第一次
-    private String aaa;
-
     private String name;
 
     private String age;
