@@ -5,6 +5,9 @@ public class TestGit1 {
 
     private String age;
 
+//    用于提交  写一半 切分支情况
+    private String sex;
+
 
     public String getName() {
         return name;
@@ -20,5 +23,9 @@ public class TestGit1 {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public void show(){
+        System.out.println("show...");
     }
 }
