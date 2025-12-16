@@ -27,6 +27,12 @@ public class ControllerHandler {
     @Resource
     private EmUserMapper emUserMapper;
 
+
+    /**
+     * 测试ecology
+     * @return
+     */
+
     @RequestMapping("/ecology")
     @ResponseBody
     public String ecology(){
